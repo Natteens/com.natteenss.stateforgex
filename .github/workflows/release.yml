@@ -17,8 +17,8 @@ jobs:
       # Passo 2: Configura Node.js
       - name: Setup Node
         uses: actions/setup-node@v3
-        with:
-          node-version: '16'  # ou 18, dependendo do seu projeto
+          with:
+          node-version: '20.8.1' # Utilize a versão correta do Node.js
 
       # Passo 3: Instala dependências
       - name: Install dependencies

@@ -1,0 +1,22 @@
+{
+  "name": "com.natteenss.stateforgex",
+  "version": "0.0.1",
+  "displayName": "StateForgeX",
+  "description": "Sistema modular de máquina de estados para Unity, criado para facilitar a implementação e manutenção de lógica de estados em personagens, NPCs, inimigos e outras entidades.",
+  "keywords": [
+    "StateMachine",
+    "State",
+    "Forge",
+    "StateForgeX",
+    "Unity",
+    "GameDev",
+    "StatePattern",
+    "FSM"
+  ],
+  "author": {
+    "name": "Nathan Miranda",
+    "email": "nathanmiranda1102@gmail.com",
+    "url": "https://github.com/Natteens"
+  },
+  "unity": "2021.3"
+}

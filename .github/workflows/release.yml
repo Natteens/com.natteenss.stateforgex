@@ -9,6 +9,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
 
+    permissions: # Configura as permissões diretamente no YAML
+      contents: write # Permite push para o repositório
+
     steps:
       - name: Check out code
         uses: actions/checkout@v3

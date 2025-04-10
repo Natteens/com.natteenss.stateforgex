@@ -17,7 +17,7 @@ jobs:
       # Passo 2: Configura Node.js
       - name: Setup Node
         uses: actions/setup-node@v3
-          with:
+        with: # Corrigida a indentação aqui
           node-version: '20.8.1' # Utilize a versão correta do Node.js
 
       # Passo 3: Instala dependências

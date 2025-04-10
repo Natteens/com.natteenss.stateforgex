@@ -1,22 +1,33 @@
 name: CI
+
 on:
   push:
     branches:
-    - main
+      - main
+
 jobs:
   release:
-    name: release
+    name: Release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - name: Release
-      uses: cycjimmy/semantic-release-action@v2
-      with:
-        extra_plugins: |
-          @semantic-release/changelog
-          @semantic-release/git
-        branch: main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Fazer checkout do código
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Configurar Node.js (se necessário para `semantic-release`)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # Executar o semantic-release
+      - name: Release
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          extra_plugins: |
+            @semantic-release/changelog
+            @semantic-release/git
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

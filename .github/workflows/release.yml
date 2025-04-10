@@ -11,27 +11,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Fazer checkout do código
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Configurar Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+          cache: 'npm'
 
       # Instalar dependências
       - name: Install dependencies
-        run: npm install
+        run: npm ci || npm install
 
       # Executar o semantic-release
       - name: Release
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v4
         with:
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/git
-          branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

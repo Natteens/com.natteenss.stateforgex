@@ -14,26 +14,23 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+
     steps:
-      # Fazer checkout do código
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
           persist-credentials: false
 
-      # Configurar Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
+          # Removido cache para evitar erro por falta de lockfile
 
-      # Instalar dependências ignorando lockfile
-      - name: Install dependencies
+      - name: Install dependencies (no lock)
         run: npm install --no-package-lock
 
-      # Executar o semantic-release
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
         with:

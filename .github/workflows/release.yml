@@ -22,7 +22,7 @@ jobs:
 
       # Passo 3: Instala dependências
       - name: Install dependencies
-        run: npm ci  # ou npm install
+        run: npm install
 
       # Passo 4: Executa Semantic Release
       - name: Semantic Release

@@ -1,3 +1,10 @@
+## [0.0.2](https://github.com/Natteens/com.natteenss.stateforgex/compare/v0.0.1...v0.0.2) (2025-04-11)
+
+
+### Bug Fixes
+
+* stateforgex ([4ea3602](https://github.com/Natteens/com.natteenss.stateforgex/commit/4ea3602329bb30a3f18552507b845a72bbc586bb))
+
 # 0.0.1 (2025-04-11)
 
 

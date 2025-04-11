@@ -67,7 +67,8 @@ namespace StateForgeX.Code.Core {
             return node;
         }
 
-        class StateNode {
+        class StateNode 
+        {
             public IState State { get; }
             public HashSet<ITransition> Transitions { get; }
             

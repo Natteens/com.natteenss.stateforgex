@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Natteens/com.natteenss.stateforgex/compare/v1.0.0...v1.0.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* initial state machine basic code ([6ae33a9](https://github.com/Natteens/com.natteenss.stateforgex/commit/6ae33a9b029e15d9099fcb0db4e99e2e83d67a81))
+
 # 1.0.0 (2025-04-10)
 
 

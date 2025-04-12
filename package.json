@@ -18,5 +18,22 @@
     "email": "nathanmiranda1102@gmail.com",
     "url": "https://github.com/Natteens"
   },
-  "unity": "2021.3"
+  "unity": "2021.3",
+  "samples": [
+    {
+      "displayName": "2D Sample",
+      "description": "Exemplo demonstrando o uso do StateForgeX em um jogo 2D.",
+      "path": "Samples~/2D Sample"
+    },
+    {
+      "displayName": "3D Sample",
+      "description": "Exemplo demonstrando o uso do StateForgeX em um jogo 3D.",
+      "path": "Samples~/3D Sample"
+    },
+    {
+      "displayName": "Utilities Sample",
+      "description": "Utilitários e prefabs de exemplo para testes e desenvolvimento.",
+      "path": "Samples~/Utilities Sample"
+    }
+  ]
 }

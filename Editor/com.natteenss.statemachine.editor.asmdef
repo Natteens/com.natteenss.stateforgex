@@ -1,7 +1,9 @@
 {
     "name": "com.natteenss.statemachine.editor",
-    "rootNamespace": "Editor",
-    "references": [],
+    "rootNamespace": "StateForgeX",
+    "references": [
+        "GUID:41885f704605a6a49821a746d8149990"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

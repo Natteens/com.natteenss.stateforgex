@@ -1,5 +1,5 @@
 {
-    "name": "com.natteenss.statemachine",
+    "name": "com.natteenss.statemachine.runtime",
     "rootNamespace": "StateForgeX",
     "references": [],
     "includePlatforms": [],

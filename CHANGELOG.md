@@ -1,3 +1,10 @@
+## [0.0.3](https://github.com/Natteens/com.natteenss.stateforgex/compare/v0.0.2...v0.0.3) (2025-04-12)
+
+
+### Bug Fixes
+
+* node graph base ([98b0b61](https://github.com/Natteens/com.natteenss.stateforgex/commit/98b0b616b68a1a5ec24bdd2fe1a74aeb5ee715ef))
+
 ## [0.0.2](https://github.com/Natteens/com.natteenss.stateforgex/compare/v0.0.1...v0.0.2) (2025-04-11)
 
 

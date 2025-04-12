@@ -1,6 +1,6 @@
 {
   "name": "com.natteenss.stateforgex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "displayName": "StateForgeX",
   "description": "Sistema modular de máquina de estados para Unity, criado para facilitar a implementação e manutenção de lógica de estados em personagens, NPCs, inimigos e outras entidades.",
   "keywords": [
